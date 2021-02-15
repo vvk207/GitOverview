@@ -4,6 +4,7 @@ public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
+    private String thirdName;
 
     public Person(Long id) {
         super(id);
